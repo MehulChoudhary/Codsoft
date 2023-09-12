@@ -1,8 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <string>
-using namespace std;
+#include <bits/stdc++.h>
 
 // Function to add a task to the to-do list
 void addTask(const string& task, ofstream& file) {
