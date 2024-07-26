@@ -4,13 +4,15 @@ using namespace std;
 int main() {
   
   // to change the number everytime programme runned 
-  
+
+
   srand(time(NULL));
+
 
 // generation of random number using rand() function 
 
   int random_number = 1 + rand() % 100;
-  int no_of_guess =0 ;
+  int no_of_guess = 0 ;
 
 int guess =0 ;
   
